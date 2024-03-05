@@ -1,0 +1,40 @@
+{
+  "name": "bip39-encrypter",
+  "version": "1.0.0",
+  "description": "BIP-39 Recovery Phrase Encrypter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsc -w",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacza/bip39-encrypter.git"
+  },
+  "keywords": [
+    "bip39",
+    "bip-39",
+    "recovery",
+    "phrase",
+    "encrypter"
+  ],
+  "author": "Jaroslaw Baczynski <jbaczynski@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bacza/bip39-encrypter#readme",
+  "devDependencies": {
+    "@tsconfig/node-lts": "^20.1.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.20",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
